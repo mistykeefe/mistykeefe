@@ -3,7 +3,7 @@
   --bg-card: #22201e;
   --text-main: #f5f2ed;
   --text-muted: #c6bfa9;
-  --accent: #e6b17a; /* warm terracotta */
+  --accent: #f7b6c2; /* pastel pink */
   --accent2: #a3cbb5; /* muted sage green */
   --border-radius: 18px;
   --shadow: 0 4px 24px rgba(60, 40, 10, 0.09);
@@ -166,3 +166,4 @@ section:not(:first-child)::before {
     padding: 0.8rem 0.6rem 1rem 0.6rem;
   }
 }
+
