@@ -33,13 +33,40 @@
                 <a href="https://github.com/yourusername/juice-shop-report" target="_blank">View Report</a>
             </div>
            <div class="project">
+                <h3>Automation Scripting Project:</h3><br>
+        Developed Python scripts to automate cybersecurity tasks such as log analysis, incident response, and alerting to improve efficiency and accuracy.
+        <br>
+        <h4>Sample Script Preview</h4>
+        <pre style="background:#f9f9f9; padding:10px; border-radius:4px; overflow-x:auto;">
+<code>import re
+
+log_file = '/var/log/security.log'
+pattern = re.compile(r'Unauthorized access attempt')
+
+with open(log_file) as f:
+    for line in f:
+        if pattern.search(line):
+            print("Alert:", line.strip())
+</code>
+        </pre>
+        <p>
+            <a href="College-Projects/Automation-Scripts/log-analysis.py" target="_blank">View full script</a>
+        </p>
+    </li>
+  <h3>SIEM & IDS Setup:</h3><br>
+        Implemented and configured Security Information and Event Management (SIEM) and Intrusion Detection Systems (IDS) to monitor, detect, and respond to security incidents. Integrated multiple log sources and created custom alert rules.
+        <br>
+        <p>
+            <a href="College-Projects/SIEM-IDS-Setup-Guide.pdf" target="_blank">Download full SIEM & IDS setup guide</a>
+        </p>
+    </li>
+    <li>
     <h2>College Projects</h3>
     <ul>
         <li>
             <h3>Vulnerable Machine Assessment:</h3><br>
             Performed hands-on exploitation and analysis of intentionally vulnerable machine documenting attack paths, findings, and mitigation recommendations.
-            <br>
-            
+            <br>   
 <h4>Penetration Testing Report Preview</h4>
 <iframe 
     src="College-Projects/Penetration-Test-Report.pdf" 
@@ -83,7 +110,7 @@
 
     <li>
         <h3>CTF Write-Up Document:</h3><br>
-        Detailed write-up document describing problem-solving approaches in CTF challenges.
+        Detailed write-up document describing problem-solving approaches in CTF challenges.Password Cracking
         <br>
         <h4>Preview</h4>
         <iframe 
